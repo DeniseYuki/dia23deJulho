@@ -9,3 +9,5 @@ CONSTRAINT alocacao_pkey PRIMARY KEY (id_alocacao),
 CONSTRAINT alocacao_funcionarios_fkey FOREIGN KEY
 (id_funcionario) REFERENCES funcionarios(id_funcionarios)
 );
+ 
+# CONSTRAINT (restrição) 
