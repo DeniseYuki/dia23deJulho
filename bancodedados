@@ -1,0 +1,11 @@
+# CREATE TABLE E CONSTRAINT
+
+CREATE TABLE IF NOT EXIST alocacao(
+id_alicacao INT NOT NULL,
+id_funcionario INT NOT NULL,
+dt_competencia DATE NOT NULL,
+horas_alocadas DECIMAL (10,2) NOT NULL,
+CONSTRAINT alocacao_pkey PRIMARY KEY (id_alocacao),
+CONSTRAINT alocacao_funcionarios_fkey FOREIGN KEY
+(id_funcionario) REFERENCES funcionarios(id_funcionarios)
+);
