@@ -36,3 +36,4 @@ const paginas = [
 console.log(paginas[1]);
 console.log(paginas[2]);
 console.log(paginas[0].login, ",",paginas[0].senha);
+//console.log(`${pagina[0].login},${pagina[1]}`)
